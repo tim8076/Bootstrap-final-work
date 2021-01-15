@@ -1,0 +1,14 @@
+
+.footer{
+    color:$warm;
+    font-weight: bold;
+    .footer-info a{
+       display: block;
+       text-decoration: none;
+       padding: 2px 0;
+    }
+    .footer-socialsIcon{
+        font-size: 2rem;
+    }
+
+}

@@ -1,0 +1,26 @@
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//html
+@import "components/index";
+@import "components/product";
+@import "components/sign-in";
+@import "components/cart";
+
+
+//自訂元件
+@import "components/card";
+@import "components/footer";
+@import "components/jumbotron";
+@import "components/form";
+@import "components/steps";
+
+//功能性class
+@import "components/utilities";
