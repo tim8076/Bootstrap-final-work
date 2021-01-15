@@ -61,7 +61,5 @@
           $('.final-total').text('NT$'+ finalprice);
           
      }
-     
-
 })();
 

@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>柚子書房-結帳</title>
+    <meta property="og:title" content="柚子書房-結帳" />
+    <meta property="og:description" content="柚子書房-結帳" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tim8076.github.io/Bootstrap-final-work/dist/index.html" />
+    <meta property="og:image" content="../image/logo/fb-pic.png" />
+    <meta property="og:locale" content="zh_TW">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/all.min.css">
 </head>
@@ -68,10 +74,10 @@
                                         <input type="tel" class="form-control" id="credit-card" placeholder="0345-3455-4657-5087">
                                     </div>
                                     <div class="row g-3">
-                                        <label class="form-label">持卡人姓名</label>
+                                        <label class="form-label" for="last-name">持卡人姓名</label>
                                         <div class="col-6 mt-0">
                                             <div class="mb-3">
-                                                <input type="text" class="form-control"  placeholder="王">
+                                                <input type="text" class="form-control" id="last-name"  placeholder="王">
                                             </div>
                                         </div>
                                         <div class="col-6 mt-0">
@@ -81,10 +87,10 @@
                                         </div>
                                     </div>                              
                                     <div class="row g-3">
-                                        <label class="form-label">有效期限</label>
+                                        <label class="form-label" for="ex-date">有效期限</label>
                                         <div class="col-6 mt-0">
                                             <div class="mb-3">
-                                                <input type="number" class="form-control" placeholder="年">
+                                                <input type="number" class="form-control" id="ex-date" placeholder="年">
                                             </div>
                                         </div>
                                         <div class="col-6 mt-0">
@@ -94,10 +100,10 @@
                                         </div>
                                     </div>
                                     <div class="row g-3">
-                                        <label class="form-label">背面末三碼</label>
+                                        <label class="form-label" for="last-number">背面末三碼</label>
                                         <div class="col-6 mt-0">
                                             <div class="mb-3">
-                                                <input type="text" class="form-control" placeholder="末三碼">
+                                                <input type="text" class="form-control" id="last-number" placeholder="末三碼">
                                             </div>
                                         </div>
                                     </div>

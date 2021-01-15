@@ -13360,12 +13360,6 @@ fieldset:disabled .btn {
   top: 40px;
 }
 
-.jumbotron .jumbotron-text-center {
-  position: absolute;
-  top: 15px;
-  left: 40%;
-}
-
 .jumbotron.jumbotron-checkout {
   height: 460px;
 }
