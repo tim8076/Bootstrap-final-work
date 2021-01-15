@@ -1,0 +1,60 @@
+
+//卡片元件
+
+.card{
+   border:1px solid $peach;  
+   font-size: 1.25rem;
+   position: relative;
+   .card-img{
+    padding: 15px 0;
+    border-bottom:1px solid $peach; 
+        .img{
+            height:315px;
+        }
+    }
+    .card-info{     
+        text-align: center;
+        .col-6{
+            padding-top: 15px;
+            padding-bottom: 15px;          
+        }
+        .col-6:first-child{
+           border-right:1px solid $peach; 
+        }
+    }
+    .card-buy{
+        text-decoration: none;
+        border-top:1px solid $peach;
+        background-color: $peach;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: all .5s; 
+        color: #000;
+        &:hover{
+            background-color: darken($peach,10%);
+        }
+    }
+    .label{
+        padding: 15px 10px;
+        writing-mode: vertical-lr;
+        background-color: darken($powder, 15%);
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 25px;
+    }
+    .heart{
+        position: absolute;
+        top:20px;
+        right:20px;
+        a{  
+            font-size: 2rem;
+            color: darken($powder, 15%);
+            display: none;
+        }
+        a.active{
+            display: block;
+        }
+    }
+}

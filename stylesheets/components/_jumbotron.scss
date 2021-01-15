@@ -1,0 +1,40 @@
+.jumbotron{
+    height: 496px;
+    .jumbotron-bg{
+        position: relative;
+    }
+    .jumbotron-text{
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+    .jumbotron-text-center{
+        position: absolute;
+        top:15px;
+        left:40%;
+    }
+    &.jumbotron-checkout{
+        height:460px;
+    }
+    .jumbotron-checkout-text{
+        width: 300px;
+        .text{
+            width: 196px;
+        }
+        
+    }
+
+    @media(max-width:767px) {
+        &{
+            height: 300px;
+        }
+         &.jumbotron-checkout{
+             height: 518px;
+         }
+        .jumbotron-text{
+            height:200px;
+            right: 30px;
+            top:30px;
+        }
+    }
+}

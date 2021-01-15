@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柚子書房-結帳</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light p-3 p-md-5">
+            <div class="container ">
+                <button class="navbar-toggler order-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-none d-md-block" href="index.html">
+                    <img src="../image/logo/Your Book-logos_black.png" height="40" alt="logo">
+                </a>
+                <a class="navbar-brand d-md-none" href="index.html">
+                    <img src="../image/logo/Your Book-logos_black.png" height="25" alt="logo">
+                </a>
+                <a href="cart.html" class="nav-link d-flex align-items-center fs-5 order-sm-5">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+                <div class="collapse navbar-collapse align-items-center  " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link fw-bold  active " aria-current="page" href="index.html">首頁</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="product.html">線上書坊</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="singIn.html">登入</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="mt-5 mb-sm-5">
+        <div class="container p-0">
+            <div class="row justify-content-md-center g-0 g-md-4 ">
+                <div class="col-md-10">
+                     <div class="row g-0 g-md-4">
+                        <div class="col-md-8 ">
+                            <div class="bg-warm text-white p-5">
+                                <div class="row mb-5">
+                                    <div class="col-6">
+                                        <h1 class="mb-0">運送</h1>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <ol class="steps my-0 p-0 w-100">
+                                            <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-circle-thin" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-circle-thin" aria-hidden="true"></i></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <form action="checkout1.html" class="form"> 
+                                    <div class="row g-3">
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <label for="last-name" class="form-label">姓氏</label>
+                                                <input type="text" class="form-control" id="last-name" placeholder="王" >
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <label for="first-name" class="form-label">名字</label>
+                                                <input type="text" class="form-control" id="first-name" placeholder="小名">
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="mb-3">
+                                        <label for="tel" class="form-label">電話</label>
+                                        <input type="tel" class="form-control" id="tel" placeholder="0912-345-467">
+                                    </div>
+                                    <div class="row g-3">   
+                                        <label class="form-label">地址</label>
+                                        <div class="col-6 mt-0">
+                                            <div class="mb-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>台北市</option>
+                                                    <option value="1">台中市</option>
+                                                    <option value="2">新北市</option>
+                                                    <option value="3">高雄市</option>
+                                                </select>
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-6 mt-0">
+                                            <div class="mb-3 ">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>中正區</option>
+                                                    <option value="1">大安區</option>
+                                                    <option value="2">萬華區</option>
+                                                    <option value="3">信義區</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="幸福路520號">
+                                    </div>                                                                                
+                                </form>                             
+                            </div>
+                            <a href="checkout-2.html" class="form-btn">
+                                下一步
+                            </a>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <div class="cart mb-4">
+                                <div class="cart-title bg-peach text-warm">
+                                     訂單摘要
+                                </div>
+                                <div class="p-4 border border-peach">
+                                    <div class="d-flex justify-content-between py-1 text-warm">
+                                        <span>小計</span>
+                                        <span>NT$2700元</span>
+                                    </div> 
+                                    <div class="d-flex justify-content-between py-1 text-warm">
+                                        <span>運費</span>
+                                        <span>NT$300元</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between py-1 text-warm fs-5 fw-bold">
+                                        <span>總計</span>
+                                        <span>NT$3000元</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div class="cart-title bg-peach text-warm">
+                                     購物清單
+                                </div>
+                                 <div class="p-4 border border-peach">
+                                    <div class="d-flex mb-3">
+                                        <div class="w-50">
+                                            <div class="bg-cover" style="background-image: url(../image/index/product.jpg);
+                                            height: 80px;"></div>
+                                        </div>
+                                        <div class="w-50 d-flex flex-column justify-content-center align-items-center text-warm">
+                                            <span>海邊的卡夫卡(2)</span>
+                                            <span class="fs-5 fw-bold">NT$ 450</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="w-50">
+                                            <div class="bg-cover" style="background-image: url(../image/index/product-2.jpg);
+                                                                                height: 80px;"></div>
+                                        </div>
+                                        <div class="w-50 d-flex flex-column justify-content-center align-items-center text-warm">
+                                            <span>撒哈拉歲月(3)</span>
+                                            <span class="fs-5 fw-bold">NT$ 550</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <div class="w-50">
+                                            <div class="bg-cover" style="background-image: url(../image/index/product-3.jpg);
+                                                                                                                    height: 80px;"></div>
+                                        </div>
+                                        <div class="w-50 d-flex flex-column justify-content-center align-items-center text-warm">
+                                            <span>達文西密碼(1)</span>
+                                            <span class="fs-5 fw-bold">NT$ 600</span>
+                                        </div>
+                                    </div>
+                                    
+                                 </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form py-5 px-3 bg-warm">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 form-text mb-3">
+                    <img class="img-fliud" src="../image/logo/Your Book-logos_round.svg.png" alt="logo">
+                    <span>柚子書坊電子報</span>
+                </div>
+                <div class="col-md-5">
+                    <form action="index.html">
+                        <div class="form-area">
+                            <label for="email" class="form-icon-left">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </label>
+                            <input type="email" id="email" class="form-control w-100">
+                            <button type="submit" class="btn btn-lg form-btn">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-5 bg-peach footer">
+        <div class="container ">
+            <div class="row justify-content-center mb-2">
+                <div class="col-10 ">
+                    <div class="d-flex justify-content-between">
+                        <div class="contact d-flex flex-column justify-content-between">
+                            <img class="mb-3" src="../image/logo/Your Book-logos_black.png" height="40" alt="logo">
+                            <div class="footer-info ">
+                                <a href="tel:02-12346666">電話: 02-12346666</a>
+                                <a href="mailto:yourBooks@gmail.com">信箱: yourBooks@gmail.com</a>
+                                <p>234 台北市大安區中正路3段1號</p>
+                            </div>
+                        </div>
+                        <img class="d-none d-md-block" src="../image/index/title-3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 d-sm-flex align-items-center">
+                    <div class="footer-socialsIcon">
+                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    </div>
+                    <p class="mb-0 ms-auto">© 2020 your book 版權所有</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+
+.recommend{  
+    margin-top: -90px;
+    .recommend-list{
+        height:256px;
+        padding: 0;          
+        overflow: hidden;
+        position: relative;
+        writing-mode: vertical-lr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+         // 互動樣式
+        &.active, &:hover, &:focus {
+            color: $warm;
+            font-weight: bolder;
+            .recommend-over {
+                background-color: rgba($peach, .8);
+            }
+            .recommend-bg {
+                filter: blur(0);
+            }
+        } 
+        & + .recommend-list{
+            border-left: 1px solid #fff;
+        }
+    }
+    .recommend-over{
+        background-color: rgba($warm,.6);
+        transition: background-color  .5s;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .recommend-text{
+        font-size: 24px;
+        letter-spacing: 10px;
+        z-index: 2;
+    }
+    .recommend-bg{
+        position: absolute;
+        top:-10px;
+        left: -10px;
+        bottom: -10px;
+        right: -10px;
+        z-index: 0;
+        filter: blur(5px);
+        transition: blur .5s;
+    }
+    @media (max-width:767px) {
+        margin: 0;
+    }
+}
+
+
+//intro
+
+.intro{
+    .intro-img{
+        background-position: center bottom;    
+        min-height: 250px;
+    }
+    .intro-text-box{
+       display: flex;
+       position: relative;
+       img{
+          position: absolute;
+          top: -26px;
+          right: 12px;
+       }
+    }
+    .intro-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            line-height:2.5;
+        }
+    }
+}
+

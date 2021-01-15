@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="60" viewBox="0 0 190 60">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #df744a;
+        font-family: SimSun;
+      }
+    </style>
+  </defs>
+  <text id="因為對書的愛" class="cls-1" x="8.966" y="28.359">因為對書的愛</text>
+  <text id="我們存在" class="cls-1" x="87.966" y="51.359">我們存在</text>
+  <image id="直線_1" data-name="直線 1" x="129" y="21" width="29" height="1" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAABCAYAAAAih6XvAAAAE0lEQVQImWO8X+L1n4GegIGBAQArpAKeBWlSawAAAABJRU5ErkJggg=="/>
+</svg>
